@@ -29,7 +29,7 @@ public class Program
         }
         finally
         {
-            Console.WriteLine("The program is finished.");
+            Console.WriteLine("Finished.");
         }
     }
 }
