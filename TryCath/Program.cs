@@ -12,8 +12,9 @@ public class Program
 
         try
         {
+            checked {
             int converted = Convert.ToInt32(input);
-            Console.WriteLine(converted * 10);
+            Console.WriteLine(converted * 10); }
         }
         catch (FormatException)
         {
