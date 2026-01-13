@@ -21,7 +21,7 @@ public class Program
         }
         catch(OverflowException)
         {
-            Console.WriteLine("Max or min.");
+            Console.WriteLine("The entered number is too large or too small.");
         }
         catch(Exception ex)
         {
